@@ -2,5 +2,14 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryDark2">#CFA064</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent2">#50333F</color>
+
+    <color name="colorlencategores">#E0BC8A</color>
+    <color name="backCat">#8A959D</color>
+    <color name="textcat">#FFFFFF</color>
+    <color name="tiltecat">#FF0000</color>
+    <color name="sharet">#000000</color>
+
 </resources>

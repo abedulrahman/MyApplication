@@ -1,31 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/menu1"
-        android:icon="@drawable/house5"
-        android:title="goback"
-        app:showAsAction="ifRoom"></item>
-    <item
-        android:id="@+id/menu2"
-        android:icon="@drawable/cancel5"
-        android:title="goback"
-        app:showAsAction="ifRoom|withText"
-        ></item>
-    <item
-        android:id="@+id/search"
-        android:title="بحث"
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
 
-        app:showAsAction="never|collapseActionView"
-        app:actionViewClass="android.widget.SearchView"></item>
-    <item
-        android:id="@+id/menu4"
-        android:title="مشاركة التطبيق"
+    >
 
 
-        ></item>
     <item
-        android:id="@+id/menu5"
-        android:title="ارسال رسالة"
+        android:id="@+id/Specifications"
+        android:title="مواصفات التطبيق"></item>
+    <item
+        android:id="@+id/ShareApp"
+        android:title="مشاركة التطبيق"></item>
 
-        ></item>
 </menu>

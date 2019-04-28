@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-
-    >
+    tools:context=".FavMasegActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,19 +12,48 @@
         android:background="@drawable/newback"
         android:orientation="vertical">
 
-        <ListView
-            android:id="@+id/cat_list"
+        <GridView
+            android:id="@+id/favbist"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:dividerHeight="3dp"></ListView>
+            android:background="@color/textcat"
+            android:dividerHeight="3dp"></GridView>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:paddingBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="homemsg"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:button="@drawable/homewhite"
+                    android:onClick="homemsg"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="sections"
+                    android:textColor="@color/textcat"
+                    android:textSize="9dp"
+
+                    />
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -41,35 +68,7 @@
                     android:layout_height="20dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:button="@drawable/homewhite"
-
-                    />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="sections"
-                    android:textColor="@color/textcat"
-                    android:textSize="9dp"
-
-                    />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:onClick="bestmsg"
-                android:orientation="vertical">
-
-                <CheckBox
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:button="@drawable/starwhite"
-                    android:onClick="bestmsg" />
+                    android:button="@drawable/starwhite" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -84,7 +83,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="email"
+                android:onClick="emails"
                 android:orientation="vertical">
 
                 <CheckBox
@@ -93,7 +92,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:button="@drawable/mailwhite"
-                    android:onClick="email"
+                    android:onClick="emails"
 
                     />
 
@@ -114,7 +113,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="fineshs"
+                android:onClick="finesh"
                 android:orientation="vertical">
 
                 <CheckBox
@@ -123,7 +122,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:button="@drawable/exitwhite"
-                    android:onClick="fineshs" />
+                    android:onClick="finesh" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -137,6 +136,4 @@
 
         </LinearLayout>
     </LinearLayout>
-
-
 </android.support.constraint.ConstraintLayout>
