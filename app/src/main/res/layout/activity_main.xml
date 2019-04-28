@@ -49,7 +49,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="sections"
+                    android:text="الرئيسية"
                     android:textColor="@color/textcat"
                     android:textSize="9dp"
 
@@ -75,7 +75,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="sections"
+                    android:text="المفضلة"
                     android:textColor="@color/textcat"
                     android:textSize="9dp" />
             </LinearLayout>
@@ -101,7 +101,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="sections"
+                    android:text="ارسال للمطور"
 
                     android:textColor="@color/textcat"
                     android:textSize="9dp"
@@ -129,7 +129,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="sections"
+                    android:text="خروج"
                     android:textColor="@color/textcat"
 
                     android:textSize="9dp" />
